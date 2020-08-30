@@ -28,6 +28,7 @@ public class E2ETestBase {
 	@AfterAll
 	public static void tearDownAll() {
 		driver.close();
+		driver.quit();
 	}
 	
 	@BeforeEach

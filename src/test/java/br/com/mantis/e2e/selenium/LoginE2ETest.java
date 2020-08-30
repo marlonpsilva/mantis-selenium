@@ -32,6 +32,7 @@ class LoginE2ETest {
 	@AfterAll
 	public static void tearDownAll() {
 		driver.close();
+		driver.quit();
 	}
 
 	@Test
